@@ -25,4 +25,3 @@ def yieldAllCombos(items):
                 bag2.append(items[j])
         yield (bag1, bag2)
         
-print(yieldAllCombos(['Hat','Shirt','Clock','TV']))
